@@ -20,9 +20,12 @@ unit: "%"
 unit_in_full: "percent"
 unit_position: "after"
 limits:
-  min_value: 10
-  max_value: 20
-  integer_only: true
+  - min_value: 0
+    max_value: 0
+    integer_only: true
+  - min_value: 10
+    max_value: 20
+    integer_only: true
 optional: true
 
 validations:
